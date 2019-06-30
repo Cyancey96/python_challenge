@@ -57,3 +57,8 @@ Query Language Examples:
 "country_code!=JP:latitude<0"- Filters responses with a latitude less than 0 if JP is not their country_code
 
 "country_code=US:zip_code=:longitude>=0" - Filters responses with a country_code of "US", a blank zip code, and a longitude greater than or equal to 0.
+
+
+Running Unit/Integration Tests:
+
+You can get pytest using "pip install pytest".  You can run unit tests using "pytest unit_tests.py" and you can run integration tests using "pytest integration_tests.py".
